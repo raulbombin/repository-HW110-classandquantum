@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: "Data and plotting scripts for: Quantum isotope effects in the scattering of hydrogen isotopes from W(110): the role of phonon-assisted absorption"
+message: >
+  If you use the data or plotting scripts in this repository,
+  please cite both this repository and the accompanying paper.
+type: software
+
+authors:
+  - family-names: Bombín
+    given-names: Raúl
+    orcid: "https://orcid.org/0000-0001-8750-6489"
+
+  - family-names: Galparsoro
+    given-names: Oihana
+
+  - family-names: Peláez
+    given-names: Daniel
+
+  - family-names: Tremblay
+    given-names: Jean-Christophe
+
+  - family-names: Crespos
+    given-names: Cédric
+
+  - family-names: Larregaray
+    given-names: Pascal
+
+repository-code: "https://github.com/<username>/<repository>"
+
+license: "CC-BY-NC-4.0"
+
+keywords:
+  - hydrogen
+  - tungsten
+  - W(110)
+  - isotope effects
+  - quantum dynamics
+  - MCTDH
+  - molecular scattering
+  - diffraction
+  - adsorption
+  - surface science
+
+abstract: >
+  Data files and Python plotting scripts accompanying the paper
+  "Quantum Dynamical and isotopic effects for Hydrogen isotopes scattering at W(110) surfacen".
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Bombín
+      given-names: Raúl
+    - family-names: Galparsoro
+      given-names: Oihana
+    - family-names: Peláez
+      given-names: Daniel
+    - family-names: Tremblay
+      given-names: Jean-Christophe
+    - family-names: Crespos
+      given-names: Cédric
+    - family-names: Larregaray
+      given-names: Pascal
+  title: "Quantum isotope effects in the scattering of hydrogen isotopes from W(110): the role of phonon-assisted absorption"
+  journal: "arXiv"
+  volume: "2603.05426"
+  year: 2026
+  url: "https://arxiv.org/abs/2603.05426"
