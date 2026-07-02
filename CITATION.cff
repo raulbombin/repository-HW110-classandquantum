@@ -25,9 +25,9 @@ authors:
   - family-names: Larregaray
     given-names: Pascal
 
-repository-code: "https://github.com/<username>/<repository>"
+repository-code: "https://github.com/raulbombin/repository-HW110-classandquantum"
 
-license: "CC-BY-NC-4.0"
+license: CC-BY-NC-4.0
 
 keywords:
   - hydrogen
@@ -62,6 +62,5 @@ preferred-citation:
       given-names: Pascal
   title: "Quantum isotope effects in the scattering of hydrogen isotopes from W(110): the role of phonon-assisted absorption"
   journal: "arXiv"
-  volume: "2603.05426"
   year: 2026
   url: "https://arxiv.org/abs/2603.05426"
