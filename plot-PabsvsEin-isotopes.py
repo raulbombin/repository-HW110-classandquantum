@@ -16,13 +16,15 @@ fig.subplots_adjust(wspace=0.0, hspace=0.0)
 # ------------------------------------------------------------------
 # Read data
 # ------------------------------------------------------------------
-folder="data-Pabs-isotopes/"
+folder="data-PabsvsEin-isotopes/"
 classical = np.loadtxt(folder+"Pabs_vs_Ein_classical.dat")
 
 H = np.loadtxt(folder+"Pabs_vs_Ein_H_quantum.dat")
 D = np.loadtxt(folder+"Pabs_vs_Ein_D_quantum.dat")
 T = np.loadtxt(folder+"Pabs_vs_Ein_T_quantum.dat")
 
+# Normalize probabilities to one
+classical[:,1:4]=classical[:,1:4]/100.
 # ------------------------------------------------------------------
 # Plot classical
 # ------------------------------------------------------------------
