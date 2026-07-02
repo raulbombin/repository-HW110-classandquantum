@@ -29,22 +29,3 @@ repository-code: "https://github.com/raulbombin/repository-HW110-classandquantum
 
 license: CC-BY-NC-4.0
 
-preferred-citation:
-  type: article
-  authors:
-    - family-names: Bombin
-      given-names: Raúl
-    - family-names: Galparsoro
-      given-names: Oihana
-    - family-names: Pelaez
-      given-names: Daniel
-    - family-names: Tremblay
-      given-names: Jean-Christophe
-    - family-names: Crespos
-      given-names: Cedric
-    - family-names: Larregaray
-      given-names: Pascal
-  title: "Quantum isotope effects in the scattering of hydrogen isotopes from W(110): the role of phonon-assisted absorption"
-  journal: "arXiv"
-  year: 2026
-  url: "https://arxiv.org/abs/2603.05426"
