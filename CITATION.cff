@@ -6,21 +6,21 @@ message: >
 type: software
 
 authors:
-  - family-names: Bombín
-    given-names: Raúl
+  - family-names: Bombin
+    given-names: Raul
     orcid: "https://orcid.org/0000-0001-8750-6489"
 
   - family-names: Galparsoro
     given-names: Oihana
 
-  - family-names: Peláez
+  - family-names: Pelaez
     given-names: Daniel
 
   - family-names: Tremblay
-    given-names: Jean-Christophe
+    given-names: Jean Christophe
 
   - family-names: Crespos
-    given-names: Cédric
+    given-names: Cedric
 
   - family-names: Larregaray
     given-names: Pascal
@@ -29,35 +29,19 @@ repository-code: "https://github.com/raulbombin/repository-HW110-classandquantum
 
 license: CC-BY-NC-4.0
 
-keywords:
-  - hydrogen
-  - tungsten
-  - W(110)
-  - isotope effects
-  - quantum dynamics
-  - MCTDH
-  - molecular scattering
-  - diffraction
-  - adsorption
-  - surface science
-
-abstract: >
-  Data files and Python plotting scripts accompanying the paper
-  "Quantum Dynamical and isotopic effects for Hydrogen isotopes scattering at W(110) surfacen".
-
 preferred-citation:
   type: article
   authors:
-    - family-names: Bombín
+    - family-names: Bombin
       given-names: Raúl
     - family-names: Galparsoro
       given-names: Oihana
-    - family-names: Peláez
+    - family-names: Pelaez
       given-names: Daniel
     - family-names: Tremblay
       given-names: Jean-Christophe
     - family-names: Crespos
-      given-names: Cédric
+      given-names: Cedric
     - family-names: Larregaray
       given-names: Pascal
   title: "Quantum isotope effects in the scattering of hydrogen isotopes from W(110): the role of phonon-assisted absorption"
