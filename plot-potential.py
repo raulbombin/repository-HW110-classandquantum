@@ -203,6 +203,8 @@ plt.subplots_adjust(
     right=0.88,   # leave room for colorbar
     hspace=0.15   # tighten vertical gap
 )
+
+plt.tight_layout()
 plt.savefig("potZcuts_XYcuts.pdf")
 plt.show()
 print(np.min(cutZhollow[:,1]))

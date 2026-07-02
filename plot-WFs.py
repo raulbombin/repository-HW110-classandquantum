@@ -115,5 +115,6 @@ plt.subplots_adjust(
     wspace=0.0
 )
 
+plt.tight_layout()
 plt.show()
 fig.savefig("WF_multiplot.pdf")

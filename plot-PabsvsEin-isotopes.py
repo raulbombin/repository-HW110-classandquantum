@@ -203,5 +203,6 @@ plt.subplots_adjust(
     wspace=0.02
 )
 
+plt.tight_layout()
 plt.savefig("stick-isotopes-log.pdf")
 plt.show()

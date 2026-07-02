@@ -198,6 +198,6 @@ ax[0].annotate('(a)', xy=(0.1,0.92),size=fs)
 ax[1].annotate('(b)', xy=(0.02,0.92),size=fs)
 fig.tight_layout()
 
-
+plt.tight_layout()
 plt.savefig('sticking-vs-time.pdf')
 plt.show()

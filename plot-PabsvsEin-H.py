@@ -162,8 +162,8 @@ plt.xticks(size=fs)
 plt.yticks(size=fs)
 plt.tight_layout()
 
+plt.tight_layout()
 plt.savefig('stick-H-vs-ener.pdf')
-
 plt.show()
 
 

@@ -140,15 +140,39 @@ diffmctdh_E005_T[:,1] = normalize(diffmctdh_E005_T[:,1])
 diffmctdh_E010_T[:,1] = normalize(diffmctdh_E010_T[:,1])
 diffmctdh_E030_T[:,1] = normalize(diffmctdh_E030_T[:,1])
 # === Style settings ===
-lw = 1.5
+lw = 3
 ps = 200
-ms = 2
+ms = 4
 ms2 = 15
-fs = 18
+fs = 24
 
 # === Figure setup ===
-fig, ax = plt.subplots(3, 3, figsize=(15, 7), sharey=False, constrained_layout=False)
+fig, ax = plt.subplots(3, 3, figsize=(15, 12), sharey=False, constrained_layout=False)
 fig.subplots_adjust(left=0.05, right=0.98, top=0.9, bottom=0.1, wspace=0, hspace=0)
+
+for i in range(3):
+    for j in range(3):
+        # Make axes lines thicker
+        for spine in ax[j, i].spines.values():
+            spine.set_linewidth(2.5)   # try 2.5–3.5 for a poster
+
+        # Make ticks thicker too
+        ax[j, i].tick_params(
+            direction='inout',
+            which='major',
+            length=8,
+            width=2.5,
+            top=True,
+            right=True,
+            labelsize=fs
+        )
+
+        # Optional: thicker minor ticks
+        ax[j, i].tick_params(
+            which='minor',
+            length=4,
+            width=2.0
+        )
 
 E1 = 50
 E2 = 100
@@ -286,9 +310,9 @@ for j in range(3):
 
 
 locy=0.57
-locx1=0.063
-locx2=0.101
-locx3=0.302
+locx1=0.061
+locx2=0.099
+locx3=0.299
 ax[0,0].annotate('(a)', xy=(0., 0.), xytext=(locx1, locy),size=fs)
 ax[0,1].annotate('(b)', xy=(0, 0.), xytext=(locx2,locy),size=fs)
 ax[0,2].annotate('(c)', xy=(0, 0.), xytext=(locx3, locy),size=fs)
@@ -346,7 +370,6 @@ fig.subplots_adjust(left=0.07, right=0.99, top=0.9, bottom=0.12, wspace=0.05, hs
 
 
 
-plt.tight_layout()
 plt.savefig('diffraction-classical-quantum-isotopes-barsandlines.pdf')
 plt.show()
 
